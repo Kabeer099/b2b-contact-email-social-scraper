@@ -1,0 +1,17 @@
+{
+  "name": "b2b-contact-email-social-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Apify Actor for extracting B2B emails, phone numbers, WhatsApp links, and social media profiles from company websites.",
+  "author": "Kabeer Ahmed (KNS Systems - https://kabeer.site)",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.6",
+    "cheerio": "^1.0.0",
+    "crawlee": "^3.11.5"
+  }
+}
